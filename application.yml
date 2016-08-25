@@ -1,9 +1,9 @@
-applicationymlfoo: defaultbar
+applicationymlfoo: defaultbar-feature-1
 ---
 spring:
   profiles: cloud
-applicationymlfoo: cloud-bar
+applicationymlfoo: cloud-bar-feature-1
 ---
 spring:
   profiles: ms
-applicationymlfoo: ms-bar
+applicationymlfoo: ms-bar-feature-1
