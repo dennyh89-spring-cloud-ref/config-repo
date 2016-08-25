@@ -1,1 +1,9 @@
-applicationymlfoo: bar
+applicationymlfoo: defaultbar
+-------
+spring:
+  profiles: cloud
+applicationymlfoo: cloud-bar
+-------
+spring:
+  profiles: ms
+applicationymlfoo: ms-bar
