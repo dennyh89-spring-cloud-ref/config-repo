@@ -1,5 +1,16 @@
-server:
-  port: 8761
+logging:
+  level:
+    ROOT: DEBUG
+ 
+
+
+
+
+
+
+
+
+   
 applicationymlfoo: defaultbar
 ---
 spring:
