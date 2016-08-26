@@ -2,7 +2,11 @@ logging:
   level:
     ROOT: DEBUG
  
-
+eureka:
+  instance:
+    client:
+      serviceUrl:
+        defaultzone: http://localhost:8761/eureka/
 
 
 
