@@ -3,3 +3,8 @@ server:
   
 x:
   message: 'Message of MS2'
+
+ms-one:
+  ribbon:
+      eureka:
+        enabled: true
