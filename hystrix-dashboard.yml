@@ -2,5 +2,6 @@ server:
   port: 8383
 turbine:
   appConfig: edge-server,microservice-two
+  #clusterNameExpression: "'default'"
   aggregator:
     clusterConfig: EDGE,MS2
