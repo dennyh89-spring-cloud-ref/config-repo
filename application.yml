@@ -4,10 +4,10 @@ logging:
     com.netflix.discovery: DEBUG
  
 eureka:
+  client:
+    serviceUrl:
+      defaultzone: http://localhost:55555/eureka/
   instance:
-    client:
-      serviceUrl:
-        defaultzone: http://localhost:55555/eureka/
     instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}
 
 
