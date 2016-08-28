@@ -6,7 +6,7 @@ logging:
 eureka:
   client:
     serviceUrl:
-      defaultzone: http://localhost:55555/eureka/
+      defaultZone: http://localhost:55555/eureka/
   instance:
     instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}
 
