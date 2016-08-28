@@ -12,7 +12,7 @@ endpoints:
 zuul:
   ignoredServices: "*"
   microservice-two:
-    path: /ms2**
+    path: /ms2/**
     
 
 
