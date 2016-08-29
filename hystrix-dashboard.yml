@@ -1,7 +1,7 @@
 server:
   port: 8383
 turbine:
-  appConfig: edge-server
+  appConfig: edge
   aggregator:
     clusterConfig: EDGE-SERVER
   
