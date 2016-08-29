@@ -1,7 +1,7 @@
 server:
   port: 8383
 turbine:
-  appConfig: edge-server,MICROSERVICE-TWO,microservice-one
+  appConfig: edge-server,microservice-two:b9efe24bf4c7311e99176ffc74d0334e,microservice-one
   aggregator:
     clusterConfig: EDGE,MS2,MS1
   
