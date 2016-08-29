@@ -2,5 +2,5 @@ server:
   port: 8383
 turbine:
   appConfig: edge-server,microservice-two,microservice-one
-  clusterNameExpression: 'default'
+  clusterNameExpression: 'DEFAULT'
   
