@@ -3,5 +3,5 @@ server:
 turbine:
   appConfig: edge-server
   aggregator:
-    clusterConfig: EDGE
+    clusterConfig: EDGE-SERVER
   
