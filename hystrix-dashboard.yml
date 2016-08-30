@@ -1,8 +1,8 @@
 server:
   port: 8383
 turbine:
-  appConfig: edge-server, microservice-two, microservice-one
-  clusterNameExpression: "'default'"
+ #appConfig: edge-server, microservice-two, microservice-one
+  #clusterNameExpression: "'default'"
   stream:
     port: 8484
   #aggregator:
