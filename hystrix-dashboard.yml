@@ -1,10 +1,10 @@
 server:
-  port: 8383
+  port: 8383 # port for hystrix dashboard to run on
 turbine:
  #appConfig: edge-server, microservice-two, microservice-one
   #clusterNameExpression: "'default'"
   stream:
-    port: 8484
+    port: 8484 # example turbine consumer http://myhost:8484
   #aggregator:
    # clusterConfig: EDGE-SERVER
   
