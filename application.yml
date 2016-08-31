@@ -1,6 +1,6 @@
 logging:
   level:
-    ROOT: DEBUG
+    ROOT: INFO
     org.springframework.cloud.netflix.hystrix: DEBUG
  
 eureka:
