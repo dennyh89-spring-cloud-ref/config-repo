@@ -12,7 +12,8 @@ eureka:
     hostname: localhost
 
 
-
+hystrix:
+  shareSecurityContext: true
 
 
 
