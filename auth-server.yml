@@ -1,0 +1,17 @@
+server:
+  port: 9999
+  context-path: /uaa
+  ssl:
+    enabled: false
+security:
+  oauth2:
+    client:
+      client-id: acme
+      client-secret: acmesecret
+      authorized-grant-types: authorization_code, refresh_token,password,client_credentials
+      scope: FOO
+     # authorities:
+      #  -FOO_READ
+       # -FOO_WRITE
+  user:
+    password: password
