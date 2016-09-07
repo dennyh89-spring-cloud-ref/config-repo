@@ -1,6 +1,6 @@
 server:
   port: 50002
-  
+ 
 x:
   message: 'Message of MS2'
 

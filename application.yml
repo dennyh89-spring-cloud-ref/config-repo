@@ -10,8 +10,13 @@ eureka:
   instance:
     instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}
     hostname: localhost
-
-
+security:
+  oauth2:
+    resource:
+      load-balanced: true
+      userInfoUri: http://auth-server/uaa/user
+    client:
+      client-id: ${spring.application.name}
 hystrix:
   shareSecurityContext: true
 
