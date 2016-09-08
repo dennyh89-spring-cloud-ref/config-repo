@@ -13,6 +13,7 @@ zuul:
   ignoredServices: "*"
   routes:
     microservice-two: /ms2/**
+    microservice-one: /ms1/**
     
 
 
