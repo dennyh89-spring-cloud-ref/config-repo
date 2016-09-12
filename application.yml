@@ -1,7 +1,9 @@
 logging:
   level:
     ROOT: INFO
- 
+    com.spring.cloud.ref: DEBUG
+management:
+  context-path: /admin 
 eureka:
   client:
     serviceUrl:
@@ -18,11 +20,16 @@ security:
       client-id: ${spring.application.name}
 hystrix:
   shareSecurityContext: true
+  command:
+    default:
+      execution:
+        isolation:
+          strategy: SEMAPHORE
+feign:
+  hystrix:
+    enabled: true
 
-
-
-   
-applicationymlfoo: defaultbar
+  
 ---
 spring:
   profiles: cloud

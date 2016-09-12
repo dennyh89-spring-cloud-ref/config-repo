@@ -1,26 +1,11 @@
 info:
   component: Zuul Server
-
-endpoints:
-  restart:
-    enabled: true
-  shutdown:
-    enabled: true
-  health:
-    sensitive: false
-
+server:
+  port: 8765
 zuul:
   ignoredServices: "*"
   routes:
     microservice-two: /ms2/**
     microservice-one: /ms1/**
-    
 
 
-      
-#    productcomposite:
-#      path: /productcomposite/**
-#      stripPrefix: false
-
-server:
-  port: 8765
