@@ -1,10 +1,4 @@
 server:
   port: 50002
 x:
-  message: 'Message of MS2'
-
-
-#ribbon:
- #   eureka:
-  #    enabled: true
-        
+  message: 'Message of MS2'        
